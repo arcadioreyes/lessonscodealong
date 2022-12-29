@@ -1,0 +1,49 @@
+<h1>Welcome {{firstName}} to the Homepage</h1>
+
+{{! This is the "#if" built-in helper }}
+{{#if lastName}}
+  <p>Your last name is {{lastName}}</p>
+{{/if}}
+
+{{#with address}}
+  <p>Your adress is: {{lastName}} {{street}}, {{number}}</p>
+{{/with}}
+
+{{!-- loads partial in inex.hbs --}}
+{{> user}}
+
+<h2>Cities where user has lived in:</h2>
+
+{{! This is the "#each" built-in helper }}
+<ul>
+  {{#each citiesLived}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+<h2>Cities where user has lived in using #if and #else:</h2>
+{{! This is the "#if - first/last " built-in helper }}
+<ul>
+  {{#each citiesLived}}
+    {{#if @first}}
+      <li>First city lived in {{this}}</li>
+    {{else}}
+      <li>{{this}}</li>
+    {{/if}}
+  {{/each}}
+</ul>
+
+{{! This is the "#each" built-in helper }}
+{{#if likesBanana}}
+  <p>Advertising for Bananas</p>
+{{else}}
+  <p>Doesn't like bananas</p>
+{{/if}}
+
+{{#unless likesCoffee}}
+  <p>Advertising for Coffee</p>
+{{/unless}}
+
+{{#if likesTea}}
+  <p>Advertising for Tea</p>
+{{/if}}

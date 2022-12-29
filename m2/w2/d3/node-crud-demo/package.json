@@ -1,0 +1,28 @@
+{
+  "name": "crud-demo",
+  "version": "1.0.0",
+  "description": "This guide implements CRUD using [Express.js](https://expressjs.com/), [Handlebars](https://handlebarsjs.com/)  [Mongoose](https://mongoosejs.com/), & [MongoDB](https://www.mongodb.com/) .",
+  "main": "app.js",
+  "bin": {
+    "crud-demo": "bin/seeds.js"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "seed": "node bin/seeds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}

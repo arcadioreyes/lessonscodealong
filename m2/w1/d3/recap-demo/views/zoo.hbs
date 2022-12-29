@@ -1,0 +1,14 @@
+<h1>Random Zoo Animals facts page</h1>
+<div>
+  <h3> Name: {{zooFacts.name}}</h3>
+</div>
+
+<div>
+  <img src={{zooFacts.image_link}} alt={{zooFacts.name}} width="300px" />
+</div>
+
+<ul>
+  {{#each zooFacts}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>

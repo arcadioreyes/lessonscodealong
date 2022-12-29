@@ -1,0 +1,7 @@
+{{! Partials are templates we can create and reuse calling them from different parts of our application.In this case we are creating a template for a user }}
+<div>
+  <h3>{{firstName}} {{lastName}}</h3>
+  {{#with address}}
+    <p>{{number}} {{street}}</p>
+  {{/with}}
+</div>

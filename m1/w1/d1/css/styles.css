@@ -1,0 +1,25 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background: beige;
+  color: blue;
+}
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.coral-color {
+  color: coral;
+}
+
+#content {
+  color: navy;
+}
+
+.medium-size {
+  width: 20px;
+}
