@@ -5,7 +5,7 @@ import "./App.css";
 
 import catImageOne from "./images/cat1.jpg";
 import catImageTwo from "./images/cat2.jpg";
-// import catImageThree from "./images/cat3.jpg";
+import catImageThree from "./images/cat3.jpg";
 
 const navigationLinks = ["Home", "About", "Contact", "Team"];
 
@@ -22,6 +22,13 @@ const catsList = [
     imageUrl: catImageTwo,
     description: "nice cat",
     showsAffection: false,
+  },
+
+  {
+    name: "Gemini",
+    imageUrl: catImageThree,
+    description: "cool cat",
+    showsAffection: true,
   },
 ];
 
