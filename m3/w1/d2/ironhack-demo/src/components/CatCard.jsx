@@ -8,6 +8,10 @@ function CatCard(props) {
         alt={"catImage"}
         style={{ width: "50px", borderRadius: "75%" }}
       />
+      {/* {cat.showsAffection === true && <p>A caring Cat</p>}
+      {cat.showsAffection === false && <p>Not a caring Cat</p>} */}
+
+      {cat.showsAffection ? <p>A caring Cat</p> : <p>Not a caring Cat</p>}
     </div>
   );
 }
