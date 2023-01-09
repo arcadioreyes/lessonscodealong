@@ -1,3 +1,4 @@
+import { Button, DatePicker } from "antd";
 import NavBar from "./components/NavBar";
 import CatList from "./components/CatList";
 import Footer from "./components/Footer";
@@ -40,6 +41,9 @@ function App() {
       <h1>React Lecture</h1>
 
       <CatList catsList={catsList} />
+
+      <Button type="primary">PRESS ME</Button>
+      <DatePicker placeholder="select date" />
 
       <Footer />
     </div>
