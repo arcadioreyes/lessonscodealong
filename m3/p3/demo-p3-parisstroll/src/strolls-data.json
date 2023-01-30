@@ -2,7 +2,7 @@
   {
     "_id": "1",
     "title": "Louvre",
-    "image": "./m3/p3/demo-p3-parisstroll/src/images/louvre.jpg",
+    "image": "../images/louvre.jpg",
     "quartier": 1,
     "guide": "Ron",
     "description": "Discover the Louvre",

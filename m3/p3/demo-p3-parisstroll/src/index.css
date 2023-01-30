@@ -70,6 +70,13 @@ select {
   border: 1px solid #f98a8a;
 }
 
+.Filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 10px;
+}
 .StrollList {
   display: flex;
   flex-wrap: wrap;

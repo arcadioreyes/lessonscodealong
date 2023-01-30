@@ -54,10 +54,14 @@ function StrollList() {
 
   return (
     <div>
-      <FilterStrolls filterStrollList={filterStrollList} />
-      <FilterQuartierStrolls
-        filterStrollQuartierList={filterStrollQuartierList}
-      />
+      <h1>Welcome to Paris Stroll</h1>
+      <h2>Discover Paris by bicycle!</h2>
+      <div className="Filters">
+        <FilterStrolls filterStrollList={filterStrollList} />
+        <FilterQuartierStrolls
+          filterStrollQuartierList={filterStrollQuartierList}
+        />
+      </div>
       <h2>Strolls List</h2>
       <div className="StrollList">
         {strolls

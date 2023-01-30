@@ -12,7 +12,7 @@ function FilterQuartierStrolls(props) {
 
   return (
     <div className="FilterQuartierStrolls">
-      <label>Show Strolls by first Quartier:</label>
+      <label>Show Strolls by Quartier:</label>
       <select value={quartierNumber} onChange={handleSelect}>
         <option value="All">All</option>
         <option value="1">1</option>
