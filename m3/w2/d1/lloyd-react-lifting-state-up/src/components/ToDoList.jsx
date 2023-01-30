@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Task from "./Task";
 import Summary from "./Summary";
+import TaskForm from "./TaskForm";
 
 const initialTasks = [
   {
@@ -26,6 +27,7 @@ const initialTasks = [
 function ToDoList() {
   const [tasks, setTasks] = useState(initialTasks);
   const [tasksCompleted, setTasksCompleted] = useState(0);
+  const [displayForm, setDisplayForm] = useState(false);
 
   const toggleTaskDone = (id) => {
     const tasksCopy = [...tasks]; // make a copy of our tasks array
@@ -53,6 +55,11 @@ function ToDoList() {
           <Task key={task._id} task={task} toggleTaskDone={toggleTaskDone} />
         ))}
       </div>
+
+      <button onClick={() => setDisplayForm(!displayForm)}>
+        {displayForm ? "Hide Form" : "Show Add Form"}
+      </button>
+      {displayForm && <TaskForm tasks={tasks} setTasks={setTasks} />}
     </div>
   );
 }
