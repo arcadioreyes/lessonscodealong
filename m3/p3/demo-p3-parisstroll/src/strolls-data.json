@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "1",
+    "title": "Louvre",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/louvre.jpg",
+    "quartier": 1,
+    "guide": "Ron",
+    "description": "Discover the Louvre",
+    "fee": 10,
+    "availability": true,
+    "rating": 10
+  },
+  {
+    "_id": "2",
+    "title": "Sentier",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/sentier.jpg",
+    "quartier": 2,
+    "guide": "Louis",
+    "description": "Discover the Sentier",
+    "fee": 10,
+    "availability": true,
+    "rating": 9
+  },
+  {
+    "_id": "3",
+    "title": "Pompidou",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/centrePompidou.jpg",
+    "quartier": 3,
+    "guide": "Marc",
+    "description": "Discover the Pompidou",
+    "fee": 10,
+    "availability": false,
+    "rating": 8
+  },
+  {
+    "_id": "4",
+    "title": "Marais",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/marais.jpg",
+    "quartier": 4,
+    "guide": "Gina",
+    "description": "Discover the Marais",
+    "fee": 10,
+    "availability": false,
+    "rating": 6
+  },
+  {
+    "_id": "5",
+    "title": "Arènes",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/arènesDeLutèce.jpg",
+    "quartier": 5,
+    "guide": "Clémentine",
+    "description": "Discover the Arènes",
+    "fee": 10,
+    "availability": true,
+    "rating": 7
+  },
+  {
+    "_id": "6",
+    "title": "Butte",
+    "image": "./m3/p3/demo-p3-parisstroll/src/images/laButteAuxCailles.jpg",
+    "quartier": 13,
+    "guide": "Laura",
+    "description": "Discover the Butte",
+    "fee": 10,
+    "availability": true,
+    "rating": 8
+  }
+]
