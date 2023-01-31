@@ -38,15 +38,15 @@ function StrollList() {
   };
 
   // filter by quartier
-  const filterStrollQuartierList = (string) => {
+  const filterStrollQuartierList = (quartier) => {
     let filteredQuartierStrolls;
 
-    if (string === "All") {
+    if (quartier === "All") {
       filteredQuartierStrolls = strollsQuartierData;
     } else {
       filteredQuartierStrolls = strollsQuartierData.filter((stroll) => {
         console.log(typeof string);
-        return stroll.quartier === Number(string);
+        return stroll.quartier === Number(quartier);
       });
     }
 
