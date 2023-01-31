@@ -45,11 +45,12 @@ function StrollList() {
       filteredQuartierStrolls = strollsQuartierData;
     } else {
       filteredQuartierStrolls = strollsQuartierData.filter((stroll) => {
-        return stroll.quartier === string;
+        console.log(typeof string);
+        return stroll.quartier === Number(string);
       });
     }
 
-    setStrollsQuartierData(filteredQuartierStrolls);
+    setStrolls(filteredQuartierStrolls);
   };
 
   return (
